@@ -17,7 +17,7 @@ The application is built with a **Flask** backend in Python and a **frontend dev
 - Backend implemented in Python using Flask
 - Cross-Origin Resource Sharing (CORS) enabled for seamless local development
 - Easily extendable and modular architecture
-
+<img src="https://raw.githubusercontent.com/Ahmadjamil888/AI-pathfinder-astarpathfinder/refs/heads/main/Screenshot%202025-06-24%20004145.png">
 ---
 
 
@@ -91,7 +91,7 @@ The application is built with a **Flask** backend in Python and a **frontend dev
 3. Continue clicking to place **obstacles** (black cells).
 4. Click **"Find Path"** to visualize the computed shortest path.
 5. Click **"Reset"** to clear and start over.
-
+<img src="https://raw.githubusercontent.com/Ahmadjamil888/AI-pathfinder-astarpathfinder/refs/heads/main/Screenshot%202025-06-24%20004359.png">
 ---
 
 ## License
