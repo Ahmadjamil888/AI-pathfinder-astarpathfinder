@@ -1,4 +1,4 @@
-# A* Path Finder Web Application
+# A* Path Finder Machine learning Web Application
 
 This project is a browser-based implementation of the **A\*** (A-Star) pathfinding algorithm using a grid-based interface. It allows users to visually set a starting point, an endpoint, and obstacles, and then computes the shortest path using the A* algorithm.
 
