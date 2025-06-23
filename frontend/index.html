@@ -1,0 +1,46 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>A* Path Finder</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    #grid-container {
+      display: grid;
+      grid-template-columns: repeat(10, 30px);
+      grid-template-rows: repeat(10, 30px);
+      gap: 2px;
+      margin-bottom: 15px;
+    }
+
+    .cell {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #aaa;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .start { background: green; }
+    .end { background: red; }
+    .obstacle { background: black; }
+    .path { background: yellow; }
+  </style>
+</head>
+<body>
+  <h2>A* Path Finder</h2>
+  <p>Click to place: Start → End → Obstacles → Then click "Find Path"</p>
+
+  <div id="grid-container"></div>
+
+  <button onclick="findPath()">Find Path</button>
+  <button onclick="resetGrid()">Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
